@@ -1,0 +1,22 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F26K80 -C -Y -DL -O11111114 -fo10 -N"D:\Programmation\PIC18F\PIC18F26K80\MAX7219\MAX7219_matrice.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"D:\Programmation\PIC18F\PIC18F26K80\MAX7219\" -SP"D:\Programmation\Librairie\Librairie MAX7219\SoftMAX7219\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -IP"D:\Programmation\Librairie\Librairie MAX7219\SoftMAX7219\" "MAX7219_matrice.c" "SoftMatrix_8x8.c" "SoftMAX7219.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CString.mcl" "__Lib_SPI_c345.mcl"	 
+hint: 0	1139	Available RAM: 3628 [bytes], Available ROM: 65536 [bytes]	 
+diagnostics: 0	122	Compilation Started	stdbool.h
+diagnostics: 37	123	Compiled Successfully	MAX7219_matrice.c
+diagnostics: 0	122	Compilation Started	max7219_font.h
+diagnostics: 362	123	Compiled Successfully	SoftMatrix_8x8.c
+hint: 62	1164	Variable 'temp' has been eliminated by optimizer	SoftMatrix_8x8.c
+hint: 221	1164	Variable 'adresse' has been eliminated by optimizer	SoftMatrix_8x8.c
+diagnostics: 0	122	Compilation Started	stdbool.h
+diagnostics: 702	123	Compiled Successfully	SoftMAX7219.c
+hint: 196	1164	Variable 'index' has been eliminated by optimizer	SoftMAX7219.c
+hint: 246	1164	Variable 'temp' has been eliminated by optimizer	SoftMAX7219.c
+hint: 326	1164	Variable 'index' has been eliminated by optimizer	SoftMAX7219.c
+hint: 364	1164	Variable 'numbit' has been eliminated by optimizer	SoftMAX7219.c
+hint: 534	1164	Variable 'diff' has been eliminated by optimizer	SoftMAX7219.c
+diagnostics: 0	127	All files Compiled in 1030 ms	 
+hint: 0	1144	Used RAM (bytes): 129 (4%)  Free RAM (bytes): 3499 (96%)	Used RAM (bytes): 129 (4%)  Free RAM (bytes): 3499 (96%)
+hint: 0	1144	Used ROM (bytes): 3688 (6%)  Free ROM (bytes): 61848 (94%)	Used ROM (bytes): 3688 (6%)  Free ROM (bytes): 61848 (94%)
+diagnostics: 0	125	Project Linked Successfully	MAX7219_matrice.mcppi
+diagnostics: 0	128	Linked in 187 ms	 
+diagnostics: 0	129	Project 'MAX7219_matrice.mcppi' completed: 1389 ms	 
+diagnostics: 0	103	Finished successfully: 14 mai 2020, 18:21:06	MAX7219_matrice.mcppi

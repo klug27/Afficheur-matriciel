@@ -1,0 +1,13 @@
+main
+	SoftMAX7219_InitMatrix
+		SoftMAX7219_Init
+			SoftMAX7219_InitAllMax
+				SoftMAX7219_Envoi8Bit
+	SoftMAX7219_PrintText
+		SoftMAX7219_PrintText_
+			longueurText
+			SoftMAX7219_selectionMatrice
+			SoftMAX7219_adresseLettre
+			SoftMAX7219_SetColumn
+	SoftMAX7219_Refresh
+		SoftMAX7219_Envoi8Bit
